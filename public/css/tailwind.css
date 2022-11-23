@@ -419,6 +419,11 @@ video {
   display: none;
 }
 
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -594,10 +599,6 @@ video {
   margin-right: auto;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -654,6 +655,10 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .bg-gray-100 {
@@ -716,6 +721,10 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.text-body{
+  font-size: 12px;
 }
 
 /**
@@ -787,4 +796,3 @@ video {
     background-color: rgb(55 65 81 / var(--tw-bg-opacity));
   }
 }
- 

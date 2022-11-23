@@ -19,3 +19,16 @@
     }
  }
  
+
+
+ @layer base{
+    h1{
+        @apply text-2xl;
+    }
+ }
+
+ @layer utilities{
+    .text-body{
+        font-size: 12px;
+    }
+ }
